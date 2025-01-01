@@ -10296,6 +10296,9 @@ levelshifter on data line.</text>
 <text x="175.26" y="88.9" size="1.778" layer="91">TODO: FIX NAMING!</text>
 <text x="132.08" y="88.9" size="1.778" layer="97">2 x gain, changes 2.5V at
 DAC to 5V at CV buffers</text>
+<text x="0" y="132.08" size="3.81" layer="97">Changelog
+v1.1: 
+- Added missing connections from channels to back row of connectors</text>
 </plain>
 <instances>
 <instance part="IC5" gate="G$1" x="15.24" y="12.7" smashed="yes">

@@ -14,7 +14,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
@@ -462,8 +462,8 @@ Source: https://www.ti.com/lit/ml/mpds050e/mpds050e.pdf (TI VSSOP, DCU0008A)</de
 <wire x1="1.405" y1="6.985" x2="0.635" y2="6.985" width="0.254" layer="1"/>
 <via x="0.635" y="6.985" extent="1-16" drill="0.3302"/>
 <via x="1.0763" y="3.81" extent="1-16" drill="0.3302"/>
-<wire x1="10.515" y1="4.33" x2="9.865" y2="3.8325" width="0.254" layer="1"/>
-<wire x1="9.865" y1="3.8325" x2="9.8425" y2="3.81" width="0.254" layer="1"/>
+<wire x1="10.515" y1="4.33" x2="10.3625" y2="4.33" width="0.254" layer="1"/>
+<wire x1="10.3625" y1="4.33" x2="9.8425" y2="3.81" width="0.254" layer="1"/>
 <via x="9.8425" y="3.81" extent="1-16" drill="0.3302"/>
 <wire x1="6.6675" y1="4.58" x2="6.6675" y2="3.81" width="0.254" layer="1"/>
 <via x="6.6675" y="3.81" extent="1-16" drill="0.3302"/>
@@ -554,9 +554,9 @@ Source: https://www.ti.com/lit/ml/mpds050e/mpds050e.pdf (TI VSSOP, DCU0008A)</de
 <wire x1="6.0325" y1="3.175" x2="5.3975" y2="3.81" width="0.254" layer="1"/>
 <wire x1="5.3975" y1="3.81" x2="5.3975" y2="4.3075" width="0.254" layer="1"/>
 <wire x1="5.3975" y1="4.3075" x2="4.725" y2="4.33" width="0.254" layer="1"/>
-<wire x1="6.0325" y1="3.175" x2="9.8425" y2="3.175" width="0.254" layer="1"/>
-<via x="9.8425" y="3.175" extent="1-16" drill="0.3302"/>
-<wire x1="9.8425" y1="3.175" x2="13.6525" y2="3.175" width="0.254" layer="16"/>
+<wire x1="6.0325" y1="3.175" x2="9.68375" y2="3.175" width="0.254" layer="1"/>
+<via x="9.68375" y="3.175" extent="1-16" drill="0.3302"/>
+<wire x1="9.68375" y1="3.175" x2="13.6525" y2="3.175" width="0.254" layer="16"/>
 <via x="13.6525" y="3.175" extent="1-16" drill="0.3302"/>
 <wire x1="13.6525" y1="3.175" x2="13.6525" y2="4.24125" width="0.254" layer="1"/>
 <wire x1="13.6525" y1="4.24125" x2="13.63" y2="4.26375" width="0.254" layer="1"/>
